@@ -48,4 +48,16 @@ footer {
     border: 3px solid #333;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
+/* Responsive design */
+@media (max-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+    header h1, footer p {
+        font-size: 18px;
+    }
+    .profile-photo {
+        width: 120px;
+        height: 120px;
+    }
+}
